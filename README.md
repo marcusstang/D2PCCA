@@ -17,6 +17,7 @@ This paper presents Deep Dynamic Probabilistic Canonical Correlation Analysis (D
 ```bash
 git clone https://github.com/marcusstang/D2PCCA.git
 cd D2PCCA
+pip install -r requirements.txt
 ```
 
 ## Data Acquisition and Preprocessing
