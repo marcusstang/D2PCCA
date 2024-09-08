@@ -8,8 +8,12 @@ This repository contains the implementation of **"Deep Dynamic Probabilistic Can
 This paper presents Deep Dynamic Probabilistic Canonical Correlation Analysis (D$^2$PCCA), a model that integrates deep learning with probabilistic modeling to analyze nonlinear dynamical systems. Building on the probabilistic extensions of Canonical Correlation Analysis (CCA), D$^2$PCCA captures nonlinear latent dynamics and supports enhancements such as KL annealing for improved convergence and normalizing flows for a more flexible posterior approximation. D$^2$PCCA naturally extends to multiple observed variables, making it a versatile tool for encoding prior knowledge about sequential datasets and providing a probabilistic understanding of the system’s dynamics. Experimental validation on real financial datasets demonstrates the effectiveness of D$^2$PCCA and its extensions in capturing latent dynamics.
 
 ## Implemented Models
+We implement the following models as well as their training and evaluation:
 - (Multiset) Dynamic Probabilistic CCA (DPCCA) 
 - (Multiset) Deep Dynamic Probabilistic CCA (D$^2$PCCA)
+We have chosen not to provide a detailed explanation of the model usage in this README because the model files, `D2PCCA.py` and `DPCCA.py`, are heavily commented. Each function and class within these files is thoroughly documented to help you understand their purpose, usage, and how to integrate them into your workflow. 
+
+Please refer directly to the comments in the code for guidance on using and modifying the models to suit your needs.
 
 ## Installation
 
