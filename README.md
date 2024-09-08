@@ -11,6 +11,7 @@ This paper presents Deep Dynamic Probabilistic Canonical Correlation Analysis (D
 We implement the following models as well as their training and evaluation:
 - (Multiset) Dynamic Probabilistic CCA (DPCCA) 
 - (Multiset) Deep Dynamic Probabilistic CCA (D$^2$PCCA)
+  
 We have chosen not to provide a detailed explanation of the model usage in this README because the model files, `D2PCCA.py` and `DPCCA.py`, are heavily commented. Each function and class within these files is thoroughly documented to help you understand their purpose, usage, and how to integrate them into your workflow. 
 
 Please refer directly to the comments in the code for guidance on using and modifying the models to suit your needs.
